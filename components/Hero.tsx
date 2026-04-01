@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useRef } from 'react'
+import { JSX, useEffect, useRef } from 'react'
 
 export default function Hero() {
   return (

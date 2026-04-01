@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { JSX, useState } from 'react'
 import Image from 'next/image'
 
 const quickLinks = ['Contact Us', 'About Us', 'Services', 'Hiring', 'Our Blog']
