@@ -43,7 +43,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="absolute top-[90px] left-0 w-full bg-black border-t border-[#222] md:hidden">
           {navItems.map(item => (
-            <a key={item} href={`#${item.toLowerCase()}`} className="block px-8 py-4 text-white font-semibold border-b border-[#111] hover:text-[#97F23D]" onClick={() => setMenuOpen(false)}>
+            <a key={item} href={`/${item.toLowerCase()}`} className="block px-8 py-4 text-white font-semibold border-b border-[#111] hover:text-[#97F23D]" onClick={() => setMenuOpen(false)}>
               {item}
             </a>
           ))}
